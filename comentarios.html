@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Comentarios</title>
+    <link rel="stylesheet" href="style_comentarios.css" type="text/css">
+</head>
+<body>
+    <div class="formulario">
+        <form>
+            <h1>Comentarios y sugerencias</h1>
+            <div class="usuario">
+                <label for="usuario">Usuario</label>
+                <input type="text" name="usuario" id="usuario" required>
+            </div>
+            <div class="correo">
+                <label for="correo">Correo Electronico</label>
+                <input type="email" name="correo" id="correo">
+            </div>
+            <div class="selec">
+                <label for="seleccion"></label>
+                <label for="queja">Queja</label><input type="radio" id="queja" name="seleccion">
+                <label for="sugerencia">Sugerencia</label><input type="radio" id="sugerencia" name="seleccion">
+            </div>
+            <div class="comentarios">
+                <label for="comentarios">Comentarios:</label>
+                <textarea id="comentarios" name="comentarios" rows="8" cols="50">
+                </textarea>
+            </div>
+            <div class="envi">
+                <input class="boton" type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
